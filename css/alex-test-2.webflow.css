@@ -3720,6 +3720,7 @@ figcaption {
 
 .div-block-66-linkedin {
   width: 80%;
+  height: 100%;
   border-radius: 20px;
   background-color: #ffd500;
 }
@@ -3925,7 +3926,7 @@ figcaption {
 .grid-13 {
   position: relative;
   left: 0%;
-  top: 63%;
+  top: 58%;
   right: 0%;
   bottom: 0%;
   margin-right: 10%;
@@ -4050,6 +4051,13 @@ figcaption {
 
 .nav-link-2.w--current {
   color: #0c1f4c;
+}
+
+.image-44 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 @media (max-width: 991px) {
@@ -4240,13 +4248,61 @@ figcaption {
   .pink-bg {
     overflow: visible;
     height: 100vh;
-    background-color: #00e166;
+    background-color: #ffd500;
+    color: #ffd500;
+  }
+  .div-block-23 {
+    width: auto;
+    margin-top: 30px;
+    margin-right: 5%;
+    margin-left: 5%;
   }
   .block-two {
+    display: none;
     box-shadow: none;
   }
+  .block-three {
+    display: none;
+  }
+  .page-structure {
+    width: auto;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .block-one {
+    display: none;
+  }
+  .ix2-scroll-trigger {
+    height: auto;
+  }
   .red-bg {
+    position: relative;
+    display: block;
     overflow: visible;
+    height: 110vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+  .blue-bg {
+    display: none;
   }
   .section-2 {
     padding-right: 24px;
@@ -4368,12 +4424,31 @@ figcaption {
     padding-left: 0px;
   }
   .footer1.cc-cta {
+    top: -80px;
     padding-right: 0px;
     padding-left: 0px;
   }
   .section-price-mobile.cc-cta {
     padding-right: 0px;
     padding-left: 0px;
+  }
+  .div-block-65 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+    margin-right: 5%;
+    margin-left: 5%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .grid-12 {
     margin-bottom: 80px;
@@ -4401,7 +4476,39 @@ figcaption {
     padding-left: 0px;
   }
   .grid-13 {
-    top: 40%;
+    top: 47%;
+  }
+  .paragraph-75 {
+    font-size: 14px;
+  }
+  .paragraph-76 {
+    font-size: 14px;
+  }
+  .paragraph-77 {
+    font-size: 14px;
+  }
+  .grid-14 {
+    display: -ms-grid;
+    display: grid;
+    width: 80%;
+    margin-top: 0px;
+    padding-top: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    justify-items: center;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+  .section-11 {
+    position: static;
+    top: auto;
   }
   .container-11 {
     background-color: #00e066;
@@ -4824,6 +4931,7 @@ figcaption {
   .navigation {
     padding-right: 20px;
     padding-left: 20px;
+    clear: left;
   }
   .navigation-item {
     -webkit-align-self: auto;
@@ -5388,13 +5496,15 @@ figcaption {
     align-items: center;
   }
   .grid-12 {
-    margin-bottom: 190px;
+    margin-bottom: 0px;
     grid-column-gap: 42px;
     -ms-grid-rows: minmax(1px, 1fr) 0.25fr auto;
     grid-template-rows: minmax(1px, 1fr) 0.25fr auto;
   }
   .heading-34 {
-    margin-top: 80%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
   .paragraph-73 {
     margin-right: 5px;
@@ -5416,6 +5526,9 @@ figcaption {
   .div-block-66-mobile {
     display: block;
     width: 95%;
+  }
+  .image-profil {
+    display: none;
   }
   .heading-36 {
     font-size: 20px;
@@ -5444,6 +5557,12 @@ figcaption {
     align-self: auto;
     font-size: 16px;
   }
+  .section-10 {
+    position: relative;
+    top: 95px;
+    bottom: auto;
+    margin-top: 0px;
+  }
   .section-footer-contact {
     position: static;
     display: none;
@@ -5453,6 +5572,9 @@ figcaption {
   }
   .dropdown-list-2 {
     background-color: #41d2d2;
+  }
+  .image-43 {
+    display: none;
   }
   .grid-14 {
     position: relative;
@@ -5476,7 +5598,11 @@ figcaption {
     align-self: center;
   }
   .section-11 {
-    top: 145px;
+    position: relative;
+    left: 0%;
+    top: 180px;
+    right: 0%;
+    bottom: 0%;
     display: block;
   }
   .columns-4 {
@@ -5558,6 +5684,15 @@ figcaption {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+  .image-44 {
+    display: block;
+    width: 80%;
+    margin-bottom: 30px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
   }
 }
 
