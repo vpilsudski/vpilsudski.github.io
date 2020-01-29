@@ -4020,7 +4020,7 @@ figcaption {
 .heading-39 {
   margin-right: 20px;
   margin-left: 20px;
-text-align: -webkit-center;
+text-align:center;
 }
 
 .nav-menu {
